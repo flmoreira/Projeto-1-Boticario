@@ -1,0 +1,28 @@
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    
+}
+.sobre__titulo {
+    font-family: var(--fontePrincipal);
+    color: var(--rosaClaro);
+    font-size: 38px;
+    font-weight: 500 bold;
+    margin: 1em 0 1em 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+}
+.sobre__descricao {
+    font-family: var(--fontePrincipal);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 1em;
+
+}

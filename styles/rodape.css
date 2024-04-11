@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+.rodape {
+    
+    text-align: center;
+    color: var(--rosaEscuro);
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px;
+    font-weight: 400;
+
+    
+ }

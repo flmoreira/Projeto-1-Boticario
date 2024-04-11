@@ -1,0 +1,198 @@
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 2em;
+    
+}
+.corpo__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: .5em;
+
+}
+.corpo__texto {
+    font-family: var(--fontePrincipal);
+    color: var(--preto);
+    font-size: 28px;
+    font-weight: 480 bold;
+    margin: 1em 0 1em 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+}
+.corpo__imagem {
+   width: 100%;
+   margin: 0.1%;
+       
+}
+.titulo-destaque {
+    color: var(--rosaEscuro);
+}
+
+.botao {
+    display: flex;
+    position: relative; /* Define a posição relativa para a div */
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100%; /* Ajuste conforme necessário */
+    margin: 2em auto;
+    justify-content: center;
+    
+}
+.botao__imagem{
+    padding: 2em 0;
+
+}
+.botao__texto {
+    border-radius: 8px;
+    background-color: var(--rosaEscuro);
+    font-family: var(--fontePrincipal);
+    font-size: 15px;
+    color: var(--branco);
+    border: 8px solid var(--rosaEscuro);
+    font-weight: 600;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+    position: absolute; /* Define a posição absoluta para o botão */
+    top: 50%; /* Alinha o botão verticalmente no centro */
+    left: 50%; /* Alinha o botão horizontalmente no centro */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    z-index: 1; /* Coloca o botão sobre a imagem */
+
+}
+
+.bolha {
+    position: absolute; /* Define a posição absoluta para a imagem */
+    top: 50%; /* Alinha o botão verticalmente no centro */
+    left: 50%; /* Alinha o botão horizontalmente no centro */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    z-index: -1; /* Coloca a imagem atrás do botão */
+
+}
+.sale-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.sale__imagem {
+    padding: 1em 0;
+    width: 23%;      
+    
+}
+.imagemeta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.imagemeta__imagem {
+    margin: 2em;
+    align-items: center;
+    width: 80%;
+       
+}
+.texto2 {
+    font-family: var(--fontePrincipal);
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 480 bold;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+
+}
+.cartao__destaque{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(var(--branco), white);
+
+}
+.cartao__1 {
+    width: 330px;
+    height: 150px;
+    background-color: var(--branco);
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid var(--rosaEscuro); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+   
+}
+
+.imagem__cartao {
+    width: 20%;
+    
+}
+.titulo__cartao{
+    font-family: var(--fontePrincipal);
+    font-size: 32px;
+    font-weight: 600 bold;
+    padding: 0.2px;
+}
+.texto__cartao{
+    font-family: var(--fontePrincipal);
+    font-size: 13px;
+    font-weight: 400;
+    padding: .5em;
+    text-align: center;
+
+}
+
+@media (min-width: 1024px){
+    .corpo__imagem {
+        width: 50%;
+        align-items: center;
+        padding: 2em;
+    }
+    
+    .sale__imagem {    
+        padding: 2em ;
+        width: 10%; 
+        align-items: top;
+    }
+    .corpo__texto {
+        font-size: 50px;
+        padding: 2em;
+    }
+    .corpo__conteudo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .imagemeta{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .imagemeta__imagem {
+        width: 50%;
+    }
+  
+
+    .bolha{
+        display: none;
+    }
+    .cartao__destaque{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+}
