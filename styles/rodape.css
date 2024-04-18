@@ -1,13 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-
-.rodape {
-   
-   
+.contato{
+    background-color: var(--branco);
+    padding: 1em;
     
 }
 
+.contato__descricao {
+    margin: 1em;
+}
+.contato__titulo,
+.contato__texto {
+    background: var(--preto);
+    background-clip: text;
 
+}
+
+.contato__titulo {
+    font-family: var(--fontePrincipal);
+    font-size: 28px;
+    font-weight: 700;
+}
+.contato__texto {
+    font-family: var(--fontePrincipal);
+    font-size: 18px;
+    font-size:300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--preto);
+    border-radius: 24px;
+    width: 50%;
+    color: var(--rosaEscuro);
+}
+
+.contato__email::placeholder {
+    font-family: var(--fontePrincipal);
+    color: var(--rosaEscuro);
+    padding-left: 3em;
+    background-position: 1em;
+    
+}
+.button {
+    padding: .5em;
+    border: 1px solid var(--preto);
+    border-radius: 24px;
+    width: 20%;
+    color: var(--rosaEscuro);
+    background-color: var(--preto);
+    font-family: var(--fontePrincipal);
+    font-size: 17px;
+    
+}
+.rodape {
+    background-color: var(--branco);
+    box-shadow: 0  4px 6px rgba(0, 0, 0, 0.2);
+}
 .rodape__texto {
     font-family: var(--fontePrincipal);
     text-align: center;
@@ -15,6 +65,37 @@
     font-family: 'Montserrat', sans-serif;
     padding: 1em;
     font-weight: 400;
+    
+    
 
     
 }
+@media screen and (min-width: 1024px) {
+    .contato {
+        margin: 1em;
+    }
+    .contato__titulo {
+        font-size: 24px;
+    }
+    .contato__email {
+        width: 28%;
+    }
+   
+    .button {
+        width: 10%
+    }
+    .contato__descricao {
+        margin: 1em;
+    }
+    .rodape {
+        margin: 1em 0 0 0;
+     
+    }
+    .rodape__texto{
+        padding: 1em ;
+     
+    }
+}
+
+
+
