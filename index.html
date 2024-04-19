@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>Cosmético JM</title>
 </head>
@@ -64,15 +65,7 @@
             <img class="corpo__imagem" src="assets/Boca.svg" alt="Boca Rosa">
         </section>
        
-<section class="sale">
-    <div class="sale-container">
-        <img class="sale__imagem" src="assets/tag-sale.svg" alt="">
-        <img class="sale__imagem" src="assets/tag-sale.svg" alt="">
-        <img class="sale__imagem" src="assets/tag-sale.svg" alt="">
-        <img class="sale__imagem" src="assets/tag-sale.svg" alt="">
-    </div>
-</section>
-<section class="botao__imagem">
+   <section class="botao__imagem">
     <div class="botao">
         <a class="botao__texto">Compre agora</a>
         <img class="bolha" src="assets/Fxbutton.svg" alt="">
@@ -84,6 +77,34 @@
             <h2 class="texto2">Nada de fórmula mágica, aqui a gente trabalha com sinceridade. Nossos cosméticos são de marcas conhecidas e, utilizados de forma correta, vão te trazer bem-estar e te ajudar a chegar no seu objetivo. 
             <strong class="titulo-destaque">  Venha conferir a nossa linha e aproveite para ganhar algumas amostras grátis</strong>.
         </h2>
+    </section>
+
+    <section class="carroseel">
+        <h2 class="carrossel__titulo">Útimos Lançamentos</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/perfume1.svg" alt="Livro Apache Kafka"></div>
+                    <div class="swiper-slide"><img src="assets/perfume2.svg" alt="Livro Java script"></div>
+                    <div class="swiper-slide"><img src="assets/perfume3.svg" alt="Livro Liderança"></div>
+                    <div class="swiper-slide"><img src="assets/perfume4.svg" alt="Livro MetricasAgeis"></div>
+                    <div class="swiper-slide"><img src="assets/perfume5.svg" alt="Livro Portugol"></div>
+                    
+                    ...
+                </div>
+    
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
     </section>
     <section class="cartao__destaque">
         <div class="cartao__1">
@@ -110,18 +131,40 @@
     </section>
 </main>
     <footer class="contato">
+
         <div class="contato__descricao">
             <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-            <p class="contato__texto">Atualizações de estoque, novos perfumes, promoções e outros.</p>
-            <input type="email" class="contato__email" placeholder="Cadastre seu e-email">
-            <button class="button" id="botao" >Enviar</button>
+            <p class="contato__texto"> Atualizações de estoque, novos perfumes, promoções e outros.</p>
+            
         </div>
+       <div class="contato__botao">
+        <input type="email" class="contato__email" placeholder="Cadastre seu e-email">
+            <button class="button" id="botao" >Enviar</button>
+       </div>
+           
+    
     
 
         <div class="rodape">
         <p class="rodape__texto"> Desenvolvido por Francisco Moreira </p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets'
+            },
+        });
+    </script>
+
+
 </body>
         
 </html>

@@ -46,7 +46,7 @@
     
 }
 .botao__imagem{
-    padding: 2em 0;
+    padding:  0;
 
 }
 .botao__texto {
@@ -78,7 +78,7 @@
     z-index: -1; /* Coloca a imagem atrás do botão */
 
 }
-.sale-container{
+/*.sale-container{
     display: flex;
     justify-content: space-around;
 
@@ -87,7 +87,7 @@
     padding: 1em 0;
     width: 23%;      
     
-}
+}*/
 .imagemeta {
     display: flex;
     justify-content: space-between;
@@ -98,8 +98,7 @@
     
 }
 .imagemeta__imagem {
-    margin: 2em;
-   
+    margin: 0 2em 0 2em;
     align-items: center;
     max-width: 500px;
        
@@ -112,7 +111,6 @@
     width: 90%;
     align-items: center;
     text-align: center;
-    margin: 1em;
     line-height: 1em;
 }
 .cartao__destaque{
@@ -122,6 +120,7 @@
     align-items: center;
     background-image: linear-gradient(var(--branco), white);
     line-height: 1.2em;
+    margin: 5em;
     
 
 }
@@ -209,4 +208,64 @@
         line-height: 1.2em;
         word-break: unset;
     }
+    .texto2 {
+        margin: 1em;
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .cartao__destaque{
+        display: flex;
+        justify-content: space-around;
+    }
+    .cartao__1 {
+        width: 530px;
+        height: 270px;
+        background-color: var(--branco);
+        border-radius: 0px;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid var(--rosaEscuro); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+       
+    }
+    .texto__cartao{
+        font-family: var(--fontePrincipal);
+        font-size: 20px;
+        font-weight: 400;
+        padding: .5em;
+        text-align: center;
+    
+    }
+    .titulo__cartao{
+        font-family: var(--fontePrincipal);
+        font-size: 30px;
+        font-weight: 600 bold;
+        padding: 12px;
+    }
+    .texto2 {
+        font-family: var(--fontePrincipal);
+        color: var(--preto);
+        font-size: 40px;
+        font-weight: 480 bold;
+        width: 55%;
+        align-items: center;
+        text-align: center;
+        line-height: 1em;
+        margin: 2em;
+        text-align: left;
+    }
+   
+    .imagemeta__imagem {
+        width: 100%;
+        padding: 0 5em 0 0;
+    
+    }
+    
+
 }

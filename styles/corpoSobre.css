@@ -1,10 +1,7 @@
 
 .sobre {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-   
+    margin: 0 0 3em 0;
+    
 }
 .sobre__titulo {
     font-family: var(--fontePrincipal);
@@ -12,16 +9,13 @@
     font-size: 36px;
     font-weight: 500 ;
     margin: 1.5em 0 .3em 0;
-    width: 100%;
-    text-align: center;
 }
 .sobre__descricao {
     font-family: var(--fontePrincipal);
     font-size: 24px;
     font-weight: 200;
-    text-align: center;
     padding: .3em;
     line-height: 1em;
-    word-break: inherit;
+    
 
 }
