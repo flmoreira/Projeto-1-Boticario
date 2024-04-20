@@ -1,21 +1,113 @@
 
-.sobre {
-    margin: 0 0 3em 0;
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
     
 }
-.sobre__titulo {
+.imagem__conteudo {
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 5% 50%;
+    
+}
+.conteudo__titulo {
     font-family: var(--fontePrincipal);
     color: var(--rosaEscuro);
     font-size: 36px;
     font-weight: 500 ;
-    margin: 1.5em 0 .3em 0;
+    margin: 1em 0 0 .3em;
 }
-.sobre__descricao {
+.conteudo__descricao {
     font-family: var(--fontePrincipal);
     font-size: 24px;
     font-weight: 200;
     padding: .3em;
     line-height: 1em;
+    text-align: left;
     
+
+}
+.conteudo__descricao1 {
+    font-family: var(--fontePrincipal);
+    font-size: 24px;
+    font-weight: 200;
+    padding: .3em;
+    line-height: 1em;
+    text-align: left;
+    
+
+}
+@media screen and (min-width: 1024px){
+    .conteudo__contaner{
+         display: flex;
+         flex-wrap: wrap;
+         margin: 1em;
+       
+    }
+    .paragrafo{
+        display: flex;
+        margin: 1em;
+         
+         
+    }
+    .paragrafo1{
+        margin: 0 1em;
+       
+    }
+    .paragrafo2{
+        margin: 0 1em;
+    }
+    .imagem {
+        width: 100%;
+        height: 100%;
+    }
+    .imagem__conteudo {
+        justify-content: center ;
+        align-items: center;
+        padding: 1em 0 0 0;
+        border-radius: 0 0;
+        float: right;
+    }
+    .conteudo__descricao {
+        font-family: var(--fontePrincipal);
+        font-size: 26px;
+        width: 80%;
+        padding:  1em 2em 0 1em;
+        line-height: 1.3em;
+        
+        
+    
+        
+    }
+    .conteudo__descricao1 {
+        font-family: var(--fontePrincipal);
+        font-size: 26px;
+        width: 80%;
+        padding: .5em 0 1em 2em ;
+        line-height: 1.3em;
+        
+    
+        
+    }
+   
+}
+
+@media screen and (min-width: 1728px){
+    .imagem__conteudo {
+        border-radius: 50%;
+    }
+    .conteudo__descricao1{
+        font-size: 38px;
+        padding: 2em 0 1em 2em 
+    }
+    .conteudo__descricao{
+        font-size: 38px;
+       
+    }
+    .conteudo__titulo{
+        font-size: 42px;
+    }
 
 }
