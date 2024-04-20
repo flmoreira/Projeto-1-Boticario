@@ -36,16 +36,17 @@
     margin: 2em auto;
 }
 @media screen and (min-width: 1024px){
+    .corpo__sobre{
+        margin: 5em;
+    }
     .corpo__sobre1{
         display: flex;
         margin: 1em;
         justify-content: flex-start;
-        margin: 1em;
+        width: 100%;
+      
     }
-    .sobre {
-        margin: 0;
-        padding: 1em;
-    }
+    
    
     .sobre__descricao{  
         text-align: left;
@@ -59,14 +60,15 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        margin: 2em ; 
+        
         
 }
 
 @media screen and (min-width: 1728px){
-
+     
         .corpo__sobre1{
             justify-content: space-between;
+            
         }
         .sobre__titulo{
             font-size: 44px;
