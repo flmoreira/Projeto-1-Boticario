@@ -55,18 +55,18 @@
     background-color: var(--preto);
     font-family: var(--fontePrincipal);
     font-size: 17px;
-    
+   
 }
 .rodape {
     background-color: var(--branco);
-    box-shadow: 0  4px 6px rgba(0, 0, 0, 0.2);
+    
 }
 .rodape__texto {
     font-family: var(--fontePrincipal);
     text-align: center;
     color: var(--rosaEscuro);
     font-family: 'Montserrat', sans-serif;
-    padding: 1em;
+    padding: 1em 0 0 0;
     font-weight: 400;
     
     
@@ -94,17 +94,20 @@
         
     }
     .contato__email {
-        width: 40%;
+        width: 30%;
+        margin: 0 0 0 1em;
     }
    .contato__botao{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    margin: 1em;
-    width: 80%;
+    width: 100%;
+    
    }
     .button {
-        width: 20%
+        width: 15%;
+        
+    
     }
     .contato__descricao {
         margin: 1em;
@@ -121,9 +124,10 @@
      
     }
     .rodape__texto{
-        padding: 1em ;
+        padding: 1em 0 0 0;
      
     }
+    
    
 }
 
