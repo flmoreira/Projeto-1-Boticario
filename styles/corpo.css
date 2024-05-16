@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: .5em;
+    margin: 42px;
 
 }
 .corpo__texto {
@@ -41,7 +41,7 @@
     position: relative; /* Define a posição relativa para a div */
     width: 100%; /* Ajuste conforme necessário */
     height: 100%; /* Ajuste conforme necessário */
-    margin: 2em auto;
+    margin: 16px auto;
     justify-content: center;
     
 }
@@ -57,7 +57,7 @@
     color: var(--branco);
     border: 8px solid var(--rosaEscuro);
     font-weight: 600;
-    padding: 1em 1.5em;
+    padding: 1em 3.5em;
     text-decoration: none;
     text-transform: uppercase;
     
@@ -68,6 +68,9 @@
     transform: translate(-50%, -50%); /* Centraliza o botão */
     z-index: 1; /* Coloca o botão sobre a imagem */
 
+}
+.botao__texto:hover{
+    color: var(--preto);
 }
 
 .bolha {
@@ -96,9 +99,10 @@
     width: 100%;
     
     
+    
 }
 .imagemeta__imagem {
-    margin: 0 2em 0 2em;
+    
     align-items: center;
     max-width: 500px;
        
@@ -184,10 +188,12 @@
     .imagemeta{
         display: flex;
         flex-direction: row-reverse;
+        
 
     }
     .imagemeta__imagem {
         width: 50%;
+        padding: 36px;
     }
   
 
@@ -261,8 +267,8 @@
     }
    
     .imagemeta__imagem {
-        width: 100%;
-        padding: 0 5em 0 0;
+        
+        padding: 36px
     
     }
     

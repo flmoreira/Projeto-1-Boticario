@@ -1,0 +1,85 @@
+.formulario__titulo-texto{
+    padding: 16px;
+    font-size: var(--fontePrincipal);
+    font-size: 32px;
+    color: var(--preto);
+}
+
+.formulario__texto-secundario{
+    font-size: var(--fontePrincipal);
+    font-size: 16px;
+    color: var(--preto);
+
+}
+.gif{
+    width: 100%;
+   
+}
+
+.formulario__container{
+    padding: 3em;
+}
+
+.botao {
+    display: flex;
+    position: relative; /* Define a posição relativa para a div */
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100%; /* Ajuste conforme necessário */
+    margin: 16px auto;
+    justify-content: center;
+    
+}
+.botao__imagem{
+    padding:  0;
+
+}
+.botao__texto {
+    border-radius: 8px;
+    background-color: var(--rosaEscuro);
+    font-family: var(--fontePrincipal);
+    font-size: 15px;
+    color: var(--branco);
+    border: 8px solid var(--rosaEscuro);
+    font-weight: 600;
+    padding: 1em 3.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+    position: absolute; /* Define a posição absoluta para o botão */
+    top: 50%; /* Alinha o botão verticalmente no centro */
+    left: 50%; /* Alinha o botão horizontalmente no centro */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    z-index: 1; /* Coloca o botão sobre a imagem */
+
+}
+.botao__texto:hover{
+    color: var(--preto);
+}
+
+@media screen and (min-width: 1024px){
+    .formulario__titulo-texto{
+        padding: 3em 0 0 0;
+        font-size: var(--fontePrincipal);
+        font-size: 40px;
+        color: var(--preto);
+    }
+    
+    .formulario__texto-secundario{
+        font-size: var(--fontePrincipal);
+        font-size: 24px;
+        color: var(--preto);
+        margin: 2em;
+    
+    }
+    .gif{
+        width: 100%;
+       
+    }
+    
+    .formulario__container{
+        padding: 3em;
+    }
+    
+
+}
