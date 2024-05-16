@@ -4,6 +4,8 @@
 @import url("/styles/corpoSobre.css");
 @import url("/styles/corpoDepoimentos.css");
  @import url("/styles/carrossel.css");
+ @import url("/styles/corpoCadastro.css");
+ @import url("/styles/corpoCadastro2.css");
 
 
 :root {
@@ -13,6 +15,7 @@
     --Laranja: #f27a30;
     --rosaClaro: #cb0d84;
     --fontePrincipal: "DM Sans", sans-serif;
+    --vermelho: red;
 }
 * {
        
