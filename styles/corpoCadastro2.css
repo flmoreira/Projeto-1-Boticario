@@ -20,7 +20,7 @@
     padding: 3em;
 }
 
-.botao {
+.botao1 {
     display: flex;
     position: relative; /* Define a posição relativa para a div */
     width: 100%; /* Ajuste conforme necessário */
@@ -29,19 +29,19 @@
     justify-content: center;
     
 }
-.botao__imagem{
+.botao__imagem1{
     padding:  0;
 
 }
-.botao__texto {
+.botao__texto1 {
     border-radius: 8px;
     background-color: var(--rosaEscuro);
     font-family: var(--fontePrincipal);
     font-size: 15px;
     color: var(--branco);
     border: 8px solid var(--rosaEscuro);
-    font-weight: 600;
     padding: 1em 3.5em;
+    font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
     
@@ -53,7 +53,7 @@
     z-index: 1; /* Coloca o botão sobre a imagem */
 
 }
-.botao__texto:hover{
+.botao__texto1:hover{
     color: var(--preto);
 }
 
