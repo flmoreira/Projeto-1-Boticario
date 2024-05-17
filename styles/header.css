@@ -4,14 +4,16 @@
     background-image: url("../assets/hamburger-menu.svg");
     background-repeat: no-repeat;
     display: inline-block;
+    
 }
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 1em;
+    margin: 0 0 1em 0;
     border-bottom: 3px solid var(--rosaEscuro);
+    background-color: var(--cinza);
 }
 .container__bolsa {
     width: 100px;
@@ -19,6 +21,7 @@
 
 .container__botao {
     display: none;
+    background-color: var(--cinza);
 }
 .lista-menu {
     display: none;
@@ -28,7 +31,7 @@
     width: 40vw; 
     list-style: none;
     z-index: 1;
-    background-color: var(--branco);
+    
     
     
 }
@@ -72,12 +75,27 @@
     display: none;
 }
 
+
+.cabecalho__pesquisa {
+    border: 2px solid var(--rosaEscuro);
+    border-radius: 20px;
+    padding: .7em 1em;
+    width: 100%;
+}
+.cabecalho__pesquisa::placeholder {
+    font-size: 18px;
+    background: url("/assets/ícone\ busca.png") no-repeat right center;
+}
+
 @media screen and (min-width: 1024px){
-   
+    
     .lista-menu{
         display: flex;
         top: auto;
         
+    }
+    .opcoes {
+        margin: 1em;
     }
     .opcoes__link {
         text-decoration: none;
@@ -94,7 +112,13 @@
     .opcoes__botao{
         display: none;
     }
-   
+   .lista-menu__item{
+    background-color: var(--cinza);
+   }
+   .cabecalho__pesquisa{
+    width: 150%;
+    
+   }
   
 
 }

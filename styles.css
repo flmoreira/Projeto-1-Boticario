@@ -12,11 +12,12 @@
 :root {
     --branco:  #fffefe;
     --rosaEscuro: #b50345;
-    --preto: #262525;
+    --preto: #000000;
     --Laranja: #f27a30;
     --rosaClaro: #cb0d84;
     --fontePrincipal: "DM Sans", sans-serif;
     --vermelho: red;
+    --cinza: #F2F2F2;
 }
 * {
        
@@ -27,8 +28,6 @@
 }
 html, body {
     height: 100%;
+    background-color: var(#A7ABAB);
 }
-body {
-    background-color: var(--branco);
-    
-}
+
