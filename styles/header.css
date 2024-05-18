@@ -16,7 +16,7 @@
     background-color: var(--cinza);
 }
 .container__bolsa {
-    width: 100px;
+    width: 80px;
 }
 
 .container__botao {
@@ -28,7 +28,7 @@
     position:absolute;
     top: 100%;
     left: 0%;
-    width: 40vw; 
+    width: 50vw; 
     list-style: none;
     z-index: 1;
     
@@ -40,14 +40,19 @@
 }
 .lista-menu__titulo,
 .lista-menu__item {
-    padding: 1rem;
-    background-color: var(--branco)
+    background-color: var(--branco);
+    font-size: 16px;
+    
 }
 .lista-menu__titulo{
+    padding: 16px;
     background-color: var(--rosaEscuro);
     color: var(--branco);
     font-family: var(--fontePrincipal);
     
+}
+.lista-menu__item{
+    padding: 20px 20px 0 20px;
 }
 .lista-menu__item:hover {
     background-color: var(--rosaEscuro);
@@ -78,12 +83,13 @@
 
 .cabecalho__pesquisa {
     border: 2px solid var(--rosaEscuro);
+    background-color: var(--cinza);
     border-radius: 20px;
     padding: .7em 1em;
     width: 100%;
 }
 .cabecalho__pesquisa::placeholder {
-    font-size: 18px;
+    font-size: 16px;
     background: url("/assets/ícone\ busca.png") no-repeat right center;
 }
 
@@ -113,6 +119,7 @@
         display: none;
     }
    .lista-menu__item{
+    padding: 16px   ;
     background-color: var(--cinza);
    }
    .cabecalho__pesquisa{

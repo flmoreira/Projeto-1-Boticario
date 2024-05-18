@@ -1,7 +1,7 @@
 .corpo__sobre{
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin:  1em;
 }
 .sobre {
    margin: 0 0 3em 0;
@@ -13,7 +13,7 @@
 .sobre__titulo {
     font-family: var(--fontePrincipal);
     color: var(--rosaEscuro);
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 600 ;
     margin: 0 0 10px 0;
     text-align: center;
@@ -37,7 +37,7 @@
 }
 @media screen and (min-width: 1024px){
     .corpo__sobre{
-        margin: 5em;
+        margin: 0 5em;
     }
     .corpo__sobre1{
         display: flex;

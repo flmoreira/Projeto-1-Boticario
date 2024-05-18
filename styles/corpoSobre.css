@@ -28,20 +28,22 @@
 }
 .conteudo__descricao {
     font-family: var(--fontePrincipal);
+    color: var(--preto);
     font-size: 24px;
     font-weight: 200;
     padding: .3em;
-    line-height: 1em;
+    line-height: 1.2em;
     text-align: left;
     
 
 }
 .conteudo__descricao1 {
     font-family: var(--fontePrincipal);
+    color: var(--preto);
     font-size: 24px;
     font-weight: 200;
     padding: .3em;
-    line-height: 1em;
+    line-height: 1.2em;
     text-align: left;
     
 
@@ -56,6 +58,7 @@
     .conteudo__contaner{
          display: flex;
          flex-wrap: wrap;
+         margin: 0 2em;
         
        
     }
@@ -123,16 +126,16 @@
     
     }
     .conteudo__descricao1{
-        font-size: 38px;
+        font-size: 36px;
         padding: 0 1em 0em 0;
     }
     .conteudo__descricao{
-        font-size: 38px;
+        font-size: 36px;
         padding: 2em 0 0em 0;
        
     }
     .conteudo__titulo{
-        font-size: 42px;
+        font-size: 44px;
     }
     
 
