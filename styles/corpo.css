@@ -20,9 +20,9 @@
 .corpo__texto {
     font-family: var(--fontePrincipal);
     color: var(--preto);
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 480 bold;
-    margin: 1em 0 1em 0;
+    margin: 1em;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -82,22 +82,12 @@
     z-index: -1; /* Coloca a imagem atrás do botão */
 
 }
-/*.sale-container{
-    display: flex;
-    justify-content: space-around;
-
-}
-.sale__imagem {
-    padding: 1em 0;
-    width: 23%;      
-    
-}*/
 .imagemeta {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    
     
     
     
@@ -105,18 +95,18 @@
 .imagemeta__imagem {
     
     align-items: center;
-    max-width: 500px;
+    padding: 1em;
        
 }
 .texto2 {
     font-family: var(--fontePrincipal);
     color: var(--preto);
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 480 bold;
-    width: 90%;
     align-items: center;
     text-align: center;
     line-height: 1em;
+    padding: 1em;
 }
 .cartao__destaque{
     display: flex;
@@ -134,13 +124,13 @@
     height: 190px;
     background-color: var(--branco);
     border-radius: 0px;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid var(--rosaEscuro); 
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid var(--rosaEscuro); 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 12px;
    
 }
 
@@ -150,7 +140,7 @@
 }
 .titulo__cartao{
     font-family: var(--fontePrincipal);
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600 bold;
     padding: 12px;
 }
@@ -173,22 +163,21 @@
         padding: 2em;
     }
     
-    .sale__imagem {    
-        padding: 2em ;
-        width: 10%; 
-        align-items: top;
-    }
+  
     .corpo__texto {
-        font-size: 50px;
-        padding: 2em;
+        font-size: 48px;
+        
     }
     .corpo__conteudo {
         display: flex;
         flex-direction: row-reverse;
+        padding: 2em 5em ;
+        margin: 0 2em;
     }
     .imagemeta{
         display: flex;
         flex-direction: row-reverse;
+        margin: 0 7em;
         
 
     }
@@ -196,7 +185,8 @@
         width: 50%;
         padding: 36px;
     }
-  
+   
+   
 
     .bolha{
         display: none;
@@ -216,8 +206,7 @@
         word-break: unset;
     }
     .texto2 {
-        margin: 1em;
-        font-size: 40px;
+        font-size: 32px;
         text-align: left;
     }
 }
@@ -266,12 +255,7 @@
         line-height: 1em;
         text-align: left;
     }
-   
-    .imagemeta__imagem {
-        
-        padding: 36px
-    
-    }
+  
     
 
 }
