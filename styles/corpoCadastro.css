@@ -82,6 +82,12 @@
     .formulario{
         margin: 0 16em ;
     }
+    .campo__escrita{
+        width: 100%;
+    }
+    .campo__escrita--menor {
+        width: 50%;
+    }
     .termos__texto{
         display: flex;
         justify-content: center;
