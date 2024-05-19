@@ -52,7 +52,7 @@
     
 }
 .lista-menu__item{
-    padding: 20px 20px 0 20px;
+    padding: 20px;
 }
 .lista-menu__item:hover {
     background-color: var(--rosaEscuro);

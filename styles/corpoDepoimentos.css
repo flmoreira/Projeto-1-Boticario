@@ -1,97 +1,96 @@
-.corpo__sobre{
+
+.cartao__destaque1{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(var(--branco), white);
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0%;
+   
+    
+}
+.cartao__11 {
+    width: 350px;
+    height: 260px;
+    background-color: var(--branco);
+    border-radius: 0px;
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-bottom: 4px solid var(--cinza); 
     display: flex;
     flex-direction: column;
-    margin:  1em;
-}
-.sobre {
-   margin: 0 0 3em 0;
-   display: flex;
-   flex-direction: column;
+    align-items: center;
+    margin: 16px;
+   
 
    
 }
-.sobre__titulo {
-    font-family: var(--fontePrincipal);
-    color: var(--rosaEscuro);
-    font-size: 36px;
-    font-weight: 600 ;
-    margin: 0 0 10px 0;
-    text-align: center;
+
+.imagem__cartao1 {
+    width: 25%;
+    padding: 8px;
+    border-radius: 16%;
+    
 }
-.sobre__descricao {
+.titulo__cartao1{
     font-family: var(--fontePrincipal);
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 600 bold;
+    padding: 12px;
+}
+.texto__cartao1{
+    font-family: var(--fontePrincipal);
+    font-size: 16px;
+    font-weight: 400;
+    padding: .5em;
     text-align: center;
-    padding: .3em;
-    line-height: 1em;
-    word-break: inherit;
 
 }
 
-.imagem__pessoa{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 2em auto;
-}
+
+
 @media screen and (min-width: 1024px){
-    .corpo__sobre{
-        margin: 0 5em;
-    }
-    .corpo__sobre1{
+
+    .cartao__destaque1{
         display: flex;
-        margin: 1em;
-        justify-content: flex-start;
-        width: 100%;
-      
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1em 0;
     }
-    
+    .cartao__11 {
+        width: 400px;
+        height: 280px;
+
+    }
+    .texto__cartao1{
+        line-height: 1.2em;
+        word-break: unset;
+    }
+}
+
+@media screen and (min-width: 1728px){
    
-    .sobre__descricao{  
-        text-align: left;
-        font-size: 24px;
-        width: 80%;
-}
-    .sobre__titulo{
-        text-align: left;
-}
-    .imagem__pessoa{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        
-        
-}
-
-@media screen and (min-width: 1728px){
-     
-        .corpo__sobre1{
-            justify-content: space-between;
-            
-        }
-        .sobre__titulo{
-            font-size: 44px;
-        }
-        .sobre__descricao {
-            font-size: 34px;
-        
-        }
-        .imagem__pessoa{
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            margin: 2em ; 
-            
+    .cartao__destaque1s{
+     margin: 0 12em;
     }
-
+ 
+    .cartao__11 {
+     width: 560px;
+     height: 360px;
+ 
+ }
+ .texto__cartao1{
+    
+    font-size: 24px;
+   
+   
 
 }
-}
+         
+ 
+ 
+ }
 
-@media screen and (min-width: 1728px){
 
-    .botao{
-        margin: 2em;
-    }
-}

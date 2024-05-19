@@ -8,12 +8,12 @@
 
 
 .formulario__container {
-    padding: 3em;
     text-align: center;
+    padding: 0;
 }
 
 .formulario__campo {
-    margin: 16px;
+    margin:8px
 }
 .principal__formulario {
     width: 100%;
@@ -47,7 +47,7 @@
 }
 
 .termos__texto {
-    margin: 1em;
+    margin: 1.5em;
     padding: 16px;
     line-height: 20px;
     display: inline;
@@ -74,7 +74,7 @@
     color: var(--rosaEscuro);
 }
 .formulario__botao:hover {
-    background-color: var(--preto);
+    background-color: var(--cinza);
 }
 
 
