@@ -1,7 +1,9 @@
 import ehUmCPF from "./valida-cpf.js";
 import ehMaiorDeIdade from "./valida-idade.js";
+import movimento from "./mouse.js";
 const camposDoFormulario = document.querySelectorAll('[required]')
 const formulario = document.querySelector('[data-formulario]');
+
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();
