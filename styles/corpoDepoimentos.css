@@ -5,8 +5,7 @@
     align-items: center;
     background-image: linear-gradient(var(--branco), white);
     line-height: 1.2em;
-    margin: 0;
-    padding: 0%;
+  
    
     
 }
@@ -57,7 +56,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 1em 0;
+        margin: 0 10em;
     }
     .cartao__11 {
         width: 400px;
@@ -72,8 +71,8 @@
 
 @media screen and (min-width: 1728px){
    
-    .cartao__destaque1s{
-     margin: 0 12em;
+    .cartao__destaque1{
+     margin: 0 12sem;
     }
  
     .cartao__11 {
