@@ -29,7 +29,7 @@
 .imagem__cartao1 {
     width: 25%;
     padding: 8px;
-    border-radius: 16%;
+    border-radius:50%;
     
 }
 .titulo__cartao1{
@@ -62,6 +62,12 @@
         width: 400px;
         height: 280px;
 
+    }
+    .imagem__cartao1 {
+        width: 25%;
+        padding: 8px;
+        border-radius: 16%;
+        
     }
     .texto__cartao1{
         line-height: 1.2em;
