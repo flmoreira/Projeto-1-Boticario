@@ -41,14 +41,16 @@
     margin-top: .5em;
 
 }
+.termos__input{
+    margin: .5em;
+}
 
 .campo__escrita--menor {
     width: 50%;
 }
 
 .termos__texto {
-    margin: 1.5em;
-    padding: 16px;
+    
     line-height: 20px;
     display: inline;
     
@@ -91,9 +93,11 @@
     .termos__texto{
         display: flex;
         justify-content: center;
-        margin: 0;
-        padding: 0 0 0 1em;
+     
         
+    }
+    .termos__input{
+        margin: 1em;
     }
    
     .formulario__termos{

@@ -30,7 +30,7 @@
 }
 .corpo__imagem {
    width: 100%;
-   margin: 0.1%;
+   
        
 }
 .titulo-destaque {
@@ -93,7 +93,7 @@
     
 }
 .imagemeta__imagem {
-    width: 100%;
+    
     align-items: center;
     padding: 1em;
        
@@ -115,7 +115,7 @@
     align-items: center;
     background-image: linear-gradient(var(--branco), white);
     line-height: 1.2em;
-    margin: 5em;
+    width: 100%;
     
 
 }
@@ -182,8 +182,8 @@
 
     }
     .imagemeta__imagem {
-        width: 50%;
-        padding: 36px;
+        width: 45%;
+        padding: 0 36px 36px 36px;
     }
    
    
@@ -198,7 +198,7 @@
     
     .cartao__1 {
         width: 400px;
-    height: 200px;
+        height: 200px;
 
     }
     .texto__cartao{
@@ -208,6 +208,7 @@
     .texto2 {
         font-size: 32px;
         text-align: left;
+        padding: 0 36px 36px 36px;
     }
 }
 
