@@ -1,3 +1,4 @@
+
 .carrossel__titulo {
     color: var(--preto);
     background-color: var(--branco);
@@ -24,18 +25,21 @@
 
 .swiper-slide img {
     width: 100%;
+    
+   
 
 }
 
 .swiper-pagination {
     position: initial;
-    margin: .5em 0;
+    margin: .5em ;
 }
 .carrossel__container1 {
-    margin: 1em;
+    margin: 1em ;
 }
 .carrossel__container {
-    margin: 1em;
+    margin: 1em 0;
+    
 }
 
 
@@ -51,14 +55,9 @@
     .swiper {
         width: 60%;
     }
-    .swiper-button-prev,
-    .swiper-button-next {
-        display: block;
-        top: 60%;
-        
-    }
+   
     .carrossel__container1 {
-        margin: 2em;
+        margin: 2em 0;
     }
     .carrossel__container{
         margin: 2em 5em;
@@ -66,6 +65,7 @@
     
 .swiper-slide img {
     width: 100%;
+    margin: 0;
 
 }
 }

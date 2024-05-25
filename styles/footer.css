@@ -49,6 +49,7 @@
     padding: 1em 0;
     font-family: var(--fontePrincipal);
     font-size: 12px;
+    width: 100%;
 }
 
 @media screen and (max-width: 798px) {
